@@ -1,0 +1,123 @@
+.how-it-works {
+  display: block;
+  width: 100%;
+}
+
+.how-it-works > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.works-plan {
+  display: flex;
+  align-items: stretch;
+  background-color: #66cfcf;
+  margin-top: -205px;
+  position: relative;
+}
+
+.works-plan > section {
+  align-self: center;
+}
+
+.works-plan > section:first-child {
+  width: 45%;
+}
+
+.works-plan > section > h2 {
+  color: #ffffff;
+  margin: 182px 0 0 50px;
+}
+
+.works-plan > section > .button-find {
+  margin: 60px 0 180px 59px;
+  background-color: transparent;
+}
+
+.works-plan h6 {
+  margin: 10px;
+}
+
+.text-second,
+.text-first {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.first h6,
+.second h6,
+.third h6,
+.fourth h6 {
+  position: relative;
+}
+
+.first,
+.third {
+  text-align: left;
+  position: relative;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  padding-right: 40%;
+}
+
+.third {
+  margin-bottom: 8%;
+}
+
+.second,
+.fourth {
+  text-align: right;
+  position: relative;
+  margin: 8% 25% 5% auto;
+  padding-left: 40%;
+}
+
+.first > img,
+.third > img {
+  position: absolute;
+  right: 1%;
+  top: 0;
+}
+
+.first h6:before {
+  content: url(../assets/images/search.png);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30%;
+}
+
+.third h6:before {
+  content: url('../assets/images/time.png');
+  position: absolute;
+  left: -30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second h6:after {
+  content: url('../assets/images/arrow-mini.png');
+  position: absolute;
+  right: -30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second > img {
+  position: absolute;
+  left: 1%;
+  top: 12%;
+}
+
+.fourth h6:after {
+  content: url('../assets/images/dol.png');
+  position: absolute;
+  right: -30%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
