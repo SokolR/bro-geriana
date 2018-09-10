@@ -1,0 +1,81 @@
+.recalls {
+  display: block;
+  width: 100%;
+  margin-bottom: 95px;
+}
+
+.recalls > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.recalls-title {
+  margin-top: -200px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.recalls-title > h4 {
+  padding-top: 50px;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #0b2a37;
+  line-height: 100px;
+  text-align: center;
+}
+
+.recalls-items {
+  display: grid;
+  padding: 0 40px;
+  justify-items: start;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 67px;
+  grid-row-gap: 50px;
+}
+
+.recalls-item__text {
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #0b2a37;
+  background: url('../assets/images/fon.png') no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 25px 55px 22px;
+  margin: 0;
+}
+
+.recalls-item__profile {
+  text-align: right;
+  position: relative;
+}
+
+.recalls-item__profile > p {
+  margin: 0 20% 0 0;
+}
+
+.recalls-item__profile > img {
+  position: absolute;
+  right: 5%;
+  top: 0;
+}
+
+.profile-name {
+  color: #0b2a37;
+  font-weight: 700;
+  line-height: 26px;
+  font-family: 'Maven Pro-Black', sans-serif;;
+}
+
+.profile-career {
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0b2a37;
+}

@@ -3,6 +3,10 @@
 @import './search-top.css';
 @import './specialists.css';
 @import './how-it-works.css';
+@import './recalls.css';
+@import './preferences.css';
+@import './call-us.css';
+@import './footer.css';
 
 
 @font-face {
@@ -77,5 +81,4 @@ button:focus{
   min-width: 480px;
   width: 100%;
   margin: 0 auto;
-  border: 2px solid red;
 }

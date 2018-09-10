@@ -18,43 +18,59 @@
   position: relative;
 }
 
-.works-plan > section {
+.works-plan > div {
   align-self: center;
 }
 
-.works-plan > section:first-child {
+.works-plan > div:first-child {
   width: 45%;
 }
 
-.works-plan > section > h2 {
+.works-plan > div > h2 {
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 80px;
   color: #ffffff;
+  font-weight: 400;
+  line-height: 100px;
   margin: 182px 0 0 50px;
 }
 
-.works-plan > section > .button-find {
+.works-plan > div > button {
   margin: 60px 0 180px 59px;
-  background-color: transparent;
+  padding: 20px 50px 40px 50px;
+  font-size: 18px;
 }
 
 .works-plan h6 {
   margin: 10px;
-}
-
-.text-second,
-.text-first {
   color: #ffffff;
-  margin: 10px;
+  font-family: 'Maven Pro-Bold', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
 }
 
-.first h6,
-.second h6,
-.third h6,
-.fourth h6 {
+.step-first__text,
+.step-second__text,
+.step-third__text,
+.step-fourth__text {
+  margin: 10px;
+  font-family: 'Maven Pro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.step-first h6,
+.step-second h6,
+.step-third h6,
+.step-fourth h6 {
   position: relative;
 }
 
-.first,
-.third {
+.step-first,
+.step-third {
   text-align: left;
   position: relative;
   margin-left: 25%;
@@ -62,26 +78,32 @@
   padding-right: 40%;
 }
 
-.third {
+.step-third {
   margin-bottom: 8%;
 }
 
-.second,
-.fourth {
+.step-second,
+.step-fourth {
   text-align: right;
   position: relative;
   margin: 8% 25% 5% auto;
   padding-left: 40%;
 }
 
-.first > img,
-.third > img {
+.step-first > img,
+.step-third > img {
   position: absolute;
   right: 1%;
   top: 0;
 }
 
-.first h6:before {
+.step-second > img {
+  position: absolute;
+  left: 1%;
+  top: 12%;
+}
+
+.step-first h6:before {
   content: url(../assets/images/search.png);
   position: absolute;
   top: 50%;
@@ -89,15 +111,7 @@
   left: -30%;
 }
 
-.third h6:before {
-  content: url('../assets/images/time.png');
-  position: absolute;
-  left: -30%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.second h6:after {
+.step-second h6:after {
   content: url('../assets/images/arrow-mini.png');
   position: absolute;
   right: -30%;
@@ -105,13 +119,15 @@
   transform: translateY(-50%);
 }
 
-.second > img {
+.step-third h6:before {
+  content: url('../assets/images/time.png');
   position: absolute;
-  left: 1%;
-  top: 12%;
+  left: -30%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.fourth h6:after {
+.step-fourth h6:after {
   content: url('../assets/images/dol.png');
   position: absolute;
   right: -30%;
