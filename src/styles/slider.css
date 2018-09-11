@@ -12,6 +12,7 @@
 .slider-item {
     display: block;
     top: 100%;
+    transition: all 0.1s ease;
 }
 
 .slider-item:after {
