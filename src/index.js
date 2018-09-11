@@ -77,12 +77,13 @@ document.addEventListener("DOMContentLoaded", function() {
   window.onload = function () {
     let slides = document.querySelectorAll('.slider-item');
     let currentSlide = 0;
-    var slideInterval = setInterval(nextSlide,2000);
     
     function nextSlide() {
         slides[currentSlide].classList.add('hide');
         currentSlide = (currentSlide+1)%slides.length;
         slides[currentSlide].classList.remove('hide');
     }
+
+    setInterval(nextSlide,7000);
   }
 });
