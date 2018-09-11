@@ -14,9 +14,8 @@
   display: flex;
   align-items: stretch;
   background-color: #005173;
-  margin-top: -205px;
   position: relative;
-  margin-top: 60px;
+  margin-top: -200px;
 }
 
 .preference h2 {
