@@ -5,6 +5,8 @@
   height: 100px;
   justify-content: space-between;
   z-index: 100;
+  max-width: 1440px;
+  min-width: 480px;
 }
 
 #scrollLogo {
