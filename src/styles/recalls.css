@@ -89,6 +89,10 @@
     margin-bottom: 60px;
   }
 
+  .recalls-title {
+    margin-top: -70px;
+  }
+
   .recalls-title > h4 {
     padding-top: 20px;
     font-size: 22px;
@@ -117,5 +121,44 @@
     font-size: 12px;
     line-height: normal;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .recalls {
+    margin-bottom: 50px;
+  }
+
+  .recalls-title {
+    margin-top: -70px;
+}
+
+  .recalls-title > h4 {
+    padding-top: 25px;
+  }
+
+  .recalls-items {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .recalls-item__text {
+    padding: 20px 20px 40px 20px;
+    font-size: 14px;
+  }
+
+  .profile > p {
+    margin: 0 35% 0 0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+  .recalls-title {
+    margin-top: -70px;
+  }
+
+  .recalls-item__profile > p {
+    margin: 0 30% 0 0;
   }
 }

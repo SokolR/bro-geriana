@@ -103,7 +103,7 @@
 
 
 @media (min-width: 480px) and (max-width: 767px) {
-  
+
   .global-nav {
     height: 50px;
     justify-content: flex-start;
@@ -129,9 +129,23 @@
     width: 70px;
     align-self: baseline;
   }
+
+  #callBtn {
+    display: none !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
+  .global-nav__item {
+    margin: 30px 5px 0 15px;   
+    width: 70px;
+    align-self: baseline;
+  }
+
+  .global-nav__link {
+    font-size: 14px;
+  }
 
 }
 

@@ -42,6 +42,10 @@
   text-align: center;
 }
 
+
+/* Media Queries */
+
+
 @media (min-width: 480px) and (max-width: 767px) {
 
   .specialists {
@@ -74,5 +78,11 @@
 
   .specialists-items__description {
     margin: 0 10px 20px 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .specialists {
+    padding: 40px 40px 140px 40px;
   }
 }
