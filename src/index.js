@@ -1,4 +1,4 @@
-import './styles/index.css';
+// import './styles/index.css';
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let callBtn = pageWrapper.querySelector('#callBtn');
     let sliderBtn = pageWrapper.querySelector('#sliderBtn');
 
-    if (scrolled > 150 ){
+    if (scrolled > 100 ){
       staticLogo.style.display = 'none';
       scrollLogo.style.display = 'block';
 

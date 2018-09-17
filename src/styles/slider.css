@@ -10,9 +10,9 @@
 }
 
 .slider-item {
-    display: block;
-    top: 100%;
-    transition: all 0.1s ease;
+  display: block;
+  top: 100%;
+  width: 100%;
 }
 
 .slider-item:after {
@@ -24,6 +24,13 @@
   height: 100%;
   background-color: #173153;
   opacity: 0.4;
+}
+
+.slider-item > img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
 }
 
 .slider-description {
@@ -92,4 +99,51 @@
   display: none;
 }
 
+
+/* Media Queries */
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+  .slider-container {
+    width: 100%;
+  }
+
+  .slider-description {
+    top: 50px;
+  }
+
+  .slider-description > h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  
+  .slider-description > h3 {    
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .slider-description > h5 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .slider-btn__find {
+    padding: 7px;
+    font-family: 'Maven Pro-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+}
 

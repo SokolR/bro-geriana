@@ -41,3 +41,38 @@
   margin: 0 20px;
   text-align: center;
 }
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+  .specialists {
+    padding: 40px 40px 140px 40px;
+  }
+  
+  .specialists-title {
+    font-size: 22px;
+    line-height: normal;
+    margin: 0 0 20px;
+    font-weight: 400;
+  }
+
+  .specialists-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .specialists-logo:nth-child(1), .specialists-logo:nth-child(2), .specialists-items__title:nth-child(5), .specialists-items__title:nth-child(6), .specialists-items__description:nth-child(9), .specialists-items__description:nth-child(10)  {
+    order: 1;
+  }
+
+  .specialists-logo:nth-child(3), .specialists-logo:nth-child(4), .specialists-items__title:nth-child(7), .specialists-items__title:nth-child(8), .specialists-items__description:nth-child(11), .specialists-items__description:nth-child(12)  {
+    order: 2;
+  }
+
+  .specialists-items__title {
+    margin: 15px;
+  }
+
+  .specialists-items__description {
+    margin: 0 10px 20px 10px;
+  }
+}

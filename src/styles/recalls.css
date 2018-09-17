@@ -79,3 +79,43 @@
   line-height: 26px;
   color: #0b2a37;
 }
+
+
+/* Media Queries */
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .recalls {
+    margin-bottom: 60px;
+  }
+
+  .recalls-title > h4 {
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: normal;
+    margin: 0 0 20px;
+  }
+
+  .recalls-items {
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0;
+  }
+
+  .recalls-item__text {
+    padding: 10px 10px 25px 10px;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+  }
+
+  .profile > p {
+    margin: 0 35% 0 0;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+  }
+}
