@@ -1,6 +1,8 @@
 .specialists {
+  max-width: 1440px;
   width: 100%;
   text-align: center;
+  margin: 0 auto;
   padding: 70px 40px 140px 40px;
 }
 

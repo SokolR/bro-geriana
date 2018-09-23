@@ -3,30 +3,38 @@
   width: 100%;
 }
 
-.how-it-works > img {
+.how-it-works__banner {
+  background: url(../assets/images/604357250.png) center;
+  background-size: cover;
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  height: 85vh;
   position: relative;
 }
 
 .works-plan {
-  display: flex;
-  align-items: stretch;
+  width: 100%;
   background-color: #66cfcf;
   margin-top: -205px;
   position: relative;
 }
 
-.works-plan > div {
+.works-plan__wrap {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;  
+}
+
+.works-plan__wrap > div {
   align-self: center;
 }
 
-.works-plan > div:first-child {
+.works-plan__wrap > div:first-child {
   width: 45%;
 }
 
-.works-plan > div > h2 {
+.works-plan__wrap > div > h2 {
   font-family: 'Maven Pro-Black', sans-serif;
   font-size: 80px;
   color: #ffffff;
@@ -35,13 +43,13 @@
   margin: 182px 0 0 50px;
 }
 
-.works-plan > div > button {
+.works-plan__wrap > div > button {
   margin: 60px 0 180px 59px;
   padding: 20px 50px 40px 50px;
   font-size: 18px;
 }
 
-.works-plan h6 {
+.works-plan__wrap h6 {
   margin: 10px;
   color: #ffffff;
   font-family: 'Maven Pro-Bold', sans-serif;
@@ -140,31 +148,31 @@
 
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .works-plan {
+  .works-plan__wrap {
     margin-top: -70px;
     flex-direction: column;
     justify-content: center;
   }
 
-  .works-plan > div > h2 {
+  .works-plan__wrap > div > h2 {
     margin: 10px;
     font-size: 30px;
     line-height: normal;
   }
 
-  .works-plan > div {
+  .works-plan__wrap > div {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  .works-plan > div > .global-nav__btn {
+  .works-plan__wrap > div > .global-nav__btn {
     margin: 10px 0;
     font-size: 12px;
     padding: 5px;
     width: 180px;
   }
 
-  .works-plan h6 {
+  .works-plan__wrap h6 {
     font-size: 16px;
   }
 
@@ -209,27 +217,27 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-  .works-plan {
+  .works-plan__wrap {
     margin-top: -70px;
     flex-direction: column;
     justify-content: center;
   }
 
-  .works-plan > div:first-child {
+  .works-plan__wrap > div:first-child {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  .works-plan > div > h2 {
+  .works-plan__wrap > div > h2 {
     margin: 60px 20px 20px 20px;
   }
 
-  .works-plan > div {
+  .works-plan__wrap > div {
     text-align: center;
     margin-bottom: 15px;
   }
 
-  .works-plan > div > .global-nav__btn {
+  .works-plan__wrap > div > .global-nav__btn {
     margin: 10px 0;
   }
 
@@ -259,7 +267,7 @@
 
   
 
-  .works-plan > div > h2 {
+  .works-plan__wrap > div > h2 {
     margin: 60px 20px 20px 20px;
     font-size: 60px;
   }

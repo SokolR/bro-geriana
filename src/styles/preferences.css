@@ -3,22 +3,29 @@
   width: 100%;
 }
 
-.our-preferences > img {
+.our-preferences-banner {
+  background: url(../assets/images/672092928.png) center;
+  background-size: cover;
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  height: 85vh;
   position: relative;
 }
 
-.preference {
-  display: flex;
-  align-items: stretch;
+.preference {  
   background-color: #005173;
+  width: 100%;
   position: relative;
-  margin-top: -200px;
 }
 
-.preference h2 {
+.preference-wrap {
+  display: flex;
+  align-items: stretch;;
+  margin-top: -200px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.preference-wrap h2 {
   font-family: 'Maven Pro-Black', sans-serif;
   font-size: 80px;
   font-weight: 400;
@@ -26,7 +33,7 @@
   color: #ffffff;
 }
 
-.preference > div {
+.preference-wrap > div {
   flex: 1;
   align-self: center;
 }
@@ -52,21 +59,6 @@
   color: #ffffff;
 }
 
-.preference-btn {
-  margin-top: 60px;
-  padding: 22px 55px 40px 55px;
-  font-family: 'Maven Pro-Black', sans-serif;
-  font-size: 18px;
-}
-
-.preference > div > img {
-  content: url('../assets/images/logo-shape.png');
-  position: absolute;
-  width: 40%;
-  bottom: 0;
-  right: 0;
-}
-
 .preference-item:before {
   content: '';
   position: absolute;
@@ -75,6 +67,23 @@
   width: 50px;
   top: -10px;
   left: 0;
+}
+
+.preference-btn {
+  margin-top: 60px;
+  padding: 22px 55px 40px 55px;
+  font-family: 'Maven Pro-Black', sans-serif;
+  font-size: 18px;
+}
+
+.preference-img {
+  background: url('../assets/images/logo-shape.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  bottom: 0;
+  right: 0;
 }
 
 
