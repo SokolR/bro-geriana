@@ -104,42 +104,23 @@
 
 
 @media (min-width: 480px) and (max-width: 767px) {
+
   .recalls {
     margin-bottom: 60px;
   }
 
   .recalls-title {
     margin-top: -70px;
-  }
-
-  .recalls-title > h4 {
-    padding-top: 20px;
-    font-size: 22px;
-    line-height: normal;
-    margin: 0 0 20px;
+    padding: 0 10px;
   }
 
   .recalls-items {
     padding: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 40px;
     margin: 0;
-  }
-
-  .recalls-item__text {
-    padding: 10px 10px 25px 10px;
-    font-size: 12px;
-    line-height: normal;
-    font-weight: 400;
-  }
-
-  .profile > p {
-    margin: 0 35% 0 0;
-    font-size: 12px;
-    line-height: normal;
-    font-weight: 400;
   }
 }
 
@@ -150,24 +131,16 @@
 
   .recalls-title {
     margin-top: -70px;
-}
-
-  .recalls-title > h4 {
-    padding-top: 25px;
+    padding: 0 80px;
   }
 
   .recalls-items {
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;
-  }
-
-  .recalls-item__text {
-    padding: 20px 20px 40px 20px;
-    font-size: 14px;
-  }
-
-  .profile > p {
-    margin: 0 35% 0 0;
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0;
   }
 }
 
@@ -175,9 +148,15 @@
 
   .recalls-title {
     margin-top: -70px;
+    padding: 0 30px;
   }
 
-  .recalls-item__profile > p {
-    margin: 0 30% 0 0;
+  .recalls-items {
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 0;
   }
 }

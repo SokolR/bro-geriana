@@ -79,71 +79,46 @@ footer {
 
 
 @media (min-width: 480px) and (max-width: 767px) {
-
-  footer {
-    padding: 10px 10px 0 10px;
+  
+  .footer-wrap {
+    padding: 75px 0 100px 15px;
+    flex-direction: column-reverse;
   }
 
   .footer-social {
-    flex: 2;
+    align-self: center;
+    margin: 40px;
   }
 
-  .footer-social > img {
-    width: 50%;
-  }
-
-  .footer-social > div {
-    margin-top: 5px;
-  }
-
-  .footer-social > div > img {
-    margin-right: 5px;
-    width: 10%;
-    height: auto;
-  }
-
-  .footer-social h6 {
-    margin-right: 10px;
-    font-size: 11px;
-    font-weight: 400;
-  }
-
-  .footer-social__text {
-    font-size: 10px;
+  .footer-list {
+    margin: 30px;
   }
 
   .footer-list > h6 {
-    margin: 0;
-    font-size: 11px;
-    font-weight: 400;
-  }
-
-  .footer-list > ul {
-    margin: 10px 0 0 0;
-  }
-
-  .footer-list > ul > li {
-    line-height: normal;
-    font-size: 9px;
-  }  
+    margin: 0 25px 15px 0;
+}
+  
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-  footer {
-    padding: 20px 20px 0 20px;
+  .footer-wrap {
+    padding: 75px 0 100px 40px;
+  }
+  
+  .footer-social {
+    margin-right: 30px;
   }
 
-  .footer-social h6 {
-    font-size: 16px;
+  .footer-list {
+    flex: 2;
   }
+}
 
-  .footer-social__text {
-    font-size: 14px;
-  }
+@media (min-width: 1024px) and (max-width: 1439px) {
 
-  .footer-list > h6 {
-    font-size: 16px;
+  .footer-list {
+    flex: 2;
   }
 }
 

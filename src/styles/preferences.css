@@ -92,37 +92,97 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
 
-  .preference {
+  .preference-wrap {
     margin-top: -70px;
     flex-direction: column-reverse;
     justify-content: center;
   }
 
   .preference-items {
-    margin: 0 7% 9% 7%;
+    margin: 2% 7% 9% 7%;
   }
 
-  .preference-item {
-    font-size: 12px;
-  }  
+  .preference-items > ul {
+    width: 100%;
+}
 
-  .preference-btn {
-    width: 150px;
-    margin: 10px auto;
-    padding: 0;
-    font-size: 12px;
-    position: relative;
-    left: 30%;
+  .preference-wrap > div {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
-  .preference h2 {
-    font-size: 40px;
+  .preference-wrap > div > h2 {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .preference-btn.scrolled {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 70%;
+    font-family: 'Maven Pro-Regular', sans-serif;
+    font-weight: 400;
+    align-self: center;
+  }
+
+  .preference-img {
+    height: 30%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-  .preference {
+  .preference-wrap {
     margin-top: -70px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .preference-items {
+    margin: 2% 7% 9% 7%;
+  }
+
+  .preference-items > ul {
+    width: 100%;
+}
+
+  .preference-wrap > div {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .preference-wrap > div > h2 {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .preference-btn.scrolled {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 40%;
+    font-family: 'Maven Pro-Regular', sans-serif;
+    font-weight: 400;
+    align-self: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+  .preference-btn.scrolled {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 70%;
+    font-family: 'Maven Pro-Regular', sans-serif;
+    font-weight: 400;
+    align-self: center;
+  }
+
+  .preference-img {
+    width: 30%;
+    height: 30%;
   }
 }
