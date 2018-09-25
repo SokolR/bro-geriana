@@ -69,11 +69,13 @@
   left: 0;
 }
 
-.preference-btn {
+.preference-btn.scrolled {
   margin-top: 60px;
   padding: 22px 55px 40px 55px;
   font-family: 'Maven Pro-Black', sans-serif;
   font-size: 18px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 .preference-img {
